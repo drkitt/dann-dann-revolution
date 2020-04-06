@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!--ONLY FOR TESTING MUST BE RERECORDED-->
+
+<SongTemplate>
+  <Title>I Lost On Jeopardy</Title>
+  <Artist>Weird Al</Artist>
+  <Duration>56</Duration>
+  <!--Song Duration In Seconds-->
+  <Difficulty>Medium</Difficulty>
+  <!--Easy Medium Or Hard-->
+  <Art>Graphics/Art/I Lost On Jeopardy</Art>
+  <!--Path To Album Art-->
+  <Notes>
+    <KeyUP>
+      <Time>27.26</Time>
+      <Time>28.37</Time>
+      <Time>29.44</Time>
+      <Time>30.52</Time>
+      <Time>39.28</Time>
+      <Time>40.30</Time>
+      <Time>41.90</Time>
+      <Time>48.59</Time>
+      <Time>49.14</Time>
+      <Time>50.42</Time>
+    </KeyUP>
+    <KeyDOWN>
+      <Time>15.06</Time>
+      <Time>16.14</Time>
+      <Time>17.16</Time>
+      <Time>18.23</Time>
+      <Time>19.29</Time>
+      <Time>20.33</Time>
+      <Time>21.46</Time>
+      <Time>22.46</Time>
+      <Time>33.65</Time>
+      <Time>34.78</Time>
+      <Time>39.76</Time>
+      <Time>45.63</Time>
+      <Time>48.08</Time>
+      <Time>54.21</Time>
+      <Time>54.99</Time>
+    </KeyDOWN>
+    <KeyLEFT>
+      <Time>06.55</Time>
+      <Time>07.63</Time>
+      <Time>08.66</Time>
+      <Time>09.74</Time>
+      <Time>10.78</Time>
+      <Time>11.85</Time>
+      <Time>12.93</Time>
+      <Time>14.00</Time>
+      <Time>31.58</Time>
+      <Time>32.66</Time>
+      <Time>39.52</Time>
+      <Time>44.34</Time>
+      <Time>45.91</Time>
+      <Time>46.47</Time>
+      <Time>47.80</Time>
+      <Time>52.88</Time>
+      <Time>54.46</Time>
+    </KeyLEFT>
+    <KeyRIGHT>
+      <Time>23.57</Time>
+      <Time>24.62</Time>
+      <Time>25.70</Time>
+      <Time>26.69</Time>
+      <Time>35.79</Time>
+      <Time>36.82</Time>
+      <Time>40.04</Time>
+      <Time>40.58</Time>
+      <Time>42.38</Time>
+      <Time>48.34</Time>
+      <Time>48.88</Time>
+      <Time>50.94</Time>
+    </KeyRIGHT>
+  </Notes>
+</SongTemplate>
+
+
+
+

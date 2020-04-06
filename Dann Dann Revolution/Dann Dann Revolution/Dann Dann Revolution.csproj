@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4ECDDD09-3FCD-4E9F-A530-B22B636797FC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Dann_Dann_Revolution</RootNamespace>
+    <AssemblyName>Dann Dann Revolution</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MonoGamePlatform>Windows</MonoGamePlatform>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\$(MonoGamePlatform)\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\$(MonoGamePlatform)\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="DannDannRevolution.cs" />
+    <Compile Include="IntroScreen.cs" />
+    <Compile Include="Sprites\Credits.cs" />
+    <Compile Include="Sprites\Dynamic Menu\DynamicMenu.cs" />
+    <Compile Include="Interfaces\IDirector.cs" />
+    <Compile Include="Interfaces\IEntity.cs" />
+    <Compile Include="Interfaces\ISound.cs" />
+    <Compile Include="Interfaces\ISprite.cs" />
+    <Compile Include="Low-level engine stuff\GameServices.cs" />
+    <Compile Include="Low-level engine stuff\InputManager.cs" />
+    <Compile Include="Low-level engine stuff\Resolution.cs" />
+    <Compile Include="Low-level engine stuff\Scene.cs" />
+    <Compile Include="Low-level engine stuff\SceneManager.cs" />
+    <Compile Include="Sprites\Dynamic Menu\ExitButton.cs" />
+    <Compile Include="Sprites\Dynamic Menu\MenuOption.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SongLoader.cs" />
+    <Compile Include="Sprites\GameScreen.cs" />
+    <Compile Include="Sprites\Dynamic Menu\SongSelectionButton.cs" />
+    <Compile Include="Sprites\GenericSprite.cs" />
+    <Compile Include="Sprites\InputEffects.cs" />
+    <Compile Include="Sprites\Menu.cs" />
+    <Compile Include="Sprites\Note.cs" />
+    <Compile Include="Sprites\ResultsScreen.cs" />
+    <Compile Include="Sprites\ScoringSystem.cs" />
+    <Compile Include="Sprites\SongSelection.cs" />
+    <Compile Include="Sprites\TitleScreenMenu.cs" />
+    <Compile Include="Sprites\VideoSprite.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\Windows\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\All Summer Long.xml" />
+    <Content Include="Data\Are You Gonna Be My Girl.xml" />
+    <Content Include="Data\Ballroom Blitz.xml" />
+    <Content Include="Data\Bap-U.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Data\Do I Wanna Know.xml" />
+    <Content Include="Data\Handclap.xml" />
+    <Content Include="Data\I Lost On Jeopardy.xml" />
+    <Content Include="Data\Last Saskatchewan Pirate.xml" />
+    <Content Include="Data\Older.xml" />
+    <Content Include="Data\Rockstar.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Data\Shooting Stars.xml" />
+    <Content Include="Data\Sugar.xml" />
+    <Content Include="Data\Tear In My Heart.xml" />
+    <Content Include="Data\We Built This City.xml" />
+    <Content Include="Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="Content\Content.mgcb" />
+    <None Include="app.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Directors\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+    STILL MESSED UP 2 NOTES!!!!!!
+-->
+
+<SongTemplate>
+  <Title>Older</Title>
+  <Artist>They Might Be Giants</Artist>
+  <Duration>103</Duration>
+  <!--Song Duration In Seconds-->
+  <Difficulty>Easy</Difficulty>
+  <!--Easy Medium Or Hard-->
+  <Art>Graphics/Art/Older</Art>
+  <!--Path To Album Art-->
+  <Notes>
+    <KeyUP>
+      <Time>25.29</Time>
+      <Time>32.05</Time>
+      <Time>32.56</Time>
+      <Time>42.77</Time>
+      <Time>58.41</Time>
+      <Time>70.84</Time>
+      <Time>79.21</Time>
+    </KeyUP>
+    <KeyDOWN>
+      <Time>21.20</Time>
+      <Time>21.67</Time>
+      <Time>29.50</Time>
+      <Time>39.73</Time>
+      <Time>60.45</Time>
+      <Time>60.95</Time>
+      <Time>68.69</Time>
+      <Time>70.32</Time>
+      <Time>76.01</Time>
+      <Time>77.03</Time>
+      <Time>78.39</Time>
+    </KeyDOWN>
+    <KeyLEFT>
+      <Time>17.03</Time>
+      <Time>19.09</Time>
+      <Time>19.58</Time>
+      <Time>27.34</Time>
+      <Time>27.85</Time>
+      <Time>34.62</Time>
+      <Time>35.57</Time>
+      <Time>43.85</Time>
+      <Time>52.19</Time>
+      <Time>52.69</Time>
+      <Time>54.25</Time>
+      <Time>54.76</Time>
+      <Time>56.37</Time>
+      <Time>56.86</Time>
+      <Time>67.73</Time>
+      <Time>69.97</Time>
+      <Time>74.39</Time>
+      <Time>74.93</Time>
+      <Time>78.00</Time>
+      <Time>80.19</Time>
+      <Time>81.13</Time>
+      <Time>82.16</Time>
+      <Time>85.29</Time>
+      <Time>85.81</Time>
+      <Time>87.31</Time>
+      <Time>87.81</Time>
+      <Time>89.39</Time>
+      <Time>89.89</Time>
+      <Time>91.46</Time>
+      <Time>93.54</Time>
+      <Time>94.05</Time>
+      <Time>95.63</Time>
+      <Time>98.28</Time>
+      <Time>98.81</Time>
+    </KeyLEFT>
+    <KeyRIGHT>
+      <Time>23.23</Time>
+      <Time>23.71</Time>
+      <Time>38.75</Time>
+      <Time>47.05</Time>
+      <Time>48.01</Time>
+      <Time>49.05</Time>
+      <Time>62.60</Time>
+      <Time>65.23</Time>
+      <Time>65.65</Time>
+      <Time>70.59</Time>
+      <Time>71.89</Time>
+      <Time>72.86</Time>
+      <Time>78.83</Time>
+    </KeyRIGHT>
+  </Notes>
+</SongTemplate>
+

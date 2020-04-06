@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<SongTemplate>
+  <Title>Are You Gonna Be My Girl</Title>
+  <Artist>The Jets</Artist>
+  <Duration>75</Duration>
+  <!--Song Duration In Seconds-->
+  <Difficulty>Medium</Difficulty>
+  <!--Easy Medium Or Hard-->
+  <Art>Graphics/Art/Are You Gonna Be My Girl</Art>
+  <!--Path To Album Art-->
+  <Notes>
+    <KeyUP>
+      <Time>10.59</Time>
+      <Time>10.87</Time>
+      <Time>11.15</Time>
+      <Time>11.59</Time>
+      <Time>11.93</Time>
+      <Time>12.31</Time>
+      <Time>12.57</Time>
+      <Time>19.40</Time>
+      <Time>24.48</Time>
+      <Time>25.37</Time>
+      <Time>25.67</Time>
+      <Time>26.05</Time>
+      <Time>26.37</Time>
+      <Time>58.64</Time>
+      <Time>59.24</Time>
+      <Time>59.80</Time>
+      <Time>60.37</Time>
+    </KeyUP>
+    <KeyDOWN>
+      <Time>8.31</Time>
+      <Time>8.58</Time>
+      <Time>8.88</Time>
+      <Time>9.30</Time>
+      <Time>9.64</Time>
+      <Time>10.03</Time>
+      <Time>10.32</Time>
+      <Time>19.76</Time>
+      <Time>20.04</Time>
+      <Time>20.35</Time>
+      <Time>20.80</Time>
+      <Time>21.09</Time>
+      <Time>21.44</Time>
+      <Time>21.74</Time>
+      <Time>23.88</Time>
+      <Time>30.47</Time>
+      <Time>31.00</Time>
+      <Time>36.47</Time>
+      <Time>38.67</Time>
+      <Time>40.92</Time>
+      <Time>43.13</Time>
+      <Time>49.49</Time>
+      <Time>50.09</Time>
+      <Time>50.64</Time>
+      <Time>51.19</Time>
+      <Time>51.75</Time>
+      <Time>52.38</Time>
+      <Time>52.92</Time>
+      <Time>53.48</Time>
+      <Time>56.35</Time>
+      <Time>56.94</Time>
+      <Time>57.48</Time>
+      <Time>58.07</Time>
+    </KeyDOWN>
+    <KeyLEFT>
+      <Time>6.04</Time>
+      <Time>6.32</Time>
+      <Time>6.63</Time>
+      <Time>7.08</Time>
+      <Time>7.37</Time>
+      <Time>7.79</Time>
+      <Time>8.05</Time>
+      <Time>19.32</Time>
+      <Time>26.61</Time>
+      <Time>30.42</Time>
+      <Time>30.97</Time>
+      <Time>35.99</Time>
+      <Time>38.23</Time>
+      <Time>40.48</Time>
+      <Time>42.78</Time>
+      <Time>43.49</Time>
+      <Time>44.88</Time>
+      <Time>45.51</Time>
+      <Time>46.08</Time>
+      <Time>46.61</Time>
+      <Time>54.07</Time>
+      <Time>54.63</Time>
+      <Time>55.22</Time>
+      <Time>55.79</Time>
+    </KeyLEFT>
+    <KeyRIGHT>
+      <Time>12.86</Time>
+      <Time>13.14</Time>
+      <Time>13.43</Time>
+      <Time>13.78</Time>
+      <Time>14.22</Time>
+      <Time>14.59</Time>
+      <Time>23.94</Time>
+      <Time>31.52</Time>
+      <Time>32.10</Time>
+      <Time>32.64</Time>
+      <Time>33.18</Time>
+      <Time>33.75</Time>
+      <Time>34.33</Time>
+      <Time>34.87</Time>
+      <Time>35.46</Time>
+      <Time>36.88</Time>
+      <Time>39.12</Time>
+      <Time>41.35</Time>
+      <Time>51.75</Time>
+      <Time>52.38</Time>
+      <Time>52.92</Time>
+      <Time>53.48</Time>
+      <Time>56.35</Time>
+      <Time>56.94</Time>
+      <Time>57.48</Time>
+      <Time>58.07</Time>
+    </KeyRIGHT>
+  </Notes>
+</SongTemplate>
+
+

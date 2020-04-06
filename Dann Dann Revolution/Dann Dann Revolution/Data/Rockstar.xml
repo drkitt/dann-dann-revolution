@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<SongTemplate>
+  <Title>Rockstar</Title>
+  <Artist>Post Malone</Artist>
+  <Duration>69</Duration>
+  <!--Song Duration In Seconds-->
+  <Difficulty>Medium</Difficulty>
+  <!--Easy Medium Or Hard-->
+  <Art>Graphics/Art/Rockstar</Art>
+  <!--Path To Album Art-->
+  <Notes>
+    <KeyUP>
+      <Time>23.21</Time>
+      <Time>24.24</Time>
+      <Time>25.30</Time>
+      <Time>26.42</Time>
+      <Time>43.29</Time>
+      <Time>46.68</Time>
+      <Time>47.48</Time>
+      <Time>48.80</Time>
+      <Time>49.89</Time>
+      <Time>50.68</Time>
+      <Time>58.34</Time>
+      <Time>58.59</Time>
+      <Time>59.09</Time>
+      <Time>63.86</Time>
+    </KeyUP>
+    <KeyDOWN>
+      <Time>27.41</Time>
+      <Time>28.45</Time>
+      <Time>29.56</Time>
+      <Time>30.62</Time>
+      <Time>40.13</Time>
+      <Time>41.16</Time>
+      <Time>42.23</Time>
+      <Time>43.82</Time>
+      <Time>44.23</Time>
+      <Time>45.64</Time>
+      <Time>47.99</Time>
+      <Time>51.99</Time>
+      <Time>53.02</Time>
+      <Time>54.09</Time>
+      <Time>56.22</Time>
+      <Time>60.72</Time>
+    </KeyDOWN>
+    <KeyLEFT>
+      <Time>18.98</Time>
+      <Time>20.04</Time>
+      <Time>21.12</Time>
+      <Time>22.15</Time>
+      <Time>35.85</Time>
+      <Time>36.91</Time>
+      <Time>37.98</Time>
+      <Time>39.04</Time>
+      <Time>44.60</Time>
+      <Time>45.38</Time>
+      <Time>47.74</Time>
+      <Time>51.71</Time>
+      <Time>53.82</Time>
+      <Time>56.46</Time>
+      <Time>56.96</Time>
+      <Time>57.23</Time>
+      <Time>57.78</Time>
+      <Time>61.74</Time>
+    </KeyLEFT>
+    <KeyRIGHT>
+      <Time>31.63</Time>
+      <Time>32.70</Time>
+      <Time>33.78</Time>
+      <Time>34.81</Time>
+      <Time>43.55</Time>
+      <Time>45.89</Time>
+      <Time>46.30</Time>
+      <Time>48.56</Time>
+      <Time>49.34</Time>
+      <Time>50.16</Time>
+      <Time>52.23</Time>
+      <Time>54.35</Time>
+      <Time>54.90</Time>
+      <Time>55.15</Time>
+      <Time>55.98</Time>
+      <Time>62.82</Time>
+    </KeyRIGHT>
+  </Notes>
+</SongTemplate>
+
