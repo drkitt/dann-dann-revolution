@@ -8,22 +8,19 @@ The game uses a custom engine that I started to develop in the summer before tha
 These instructions will help you get a copy of the project open on your machine so you can play the game.
 ### Prerequisites
 You will need:
-- Visual Studio for Windows (tested with Visual Studio 2019) 
-- [Monogame 3.6 for Visual Studio](https://www.monogame.net/2017/03/01/monogame-3-6/) (make sure you have the right version; the game doesn't work on Monogame 3.7)
+- Windows (tested on Windows 10 version 1909)
+- Visual Studio for Windows with the C# workload installed (tested with Visual Studio 2019) 
+- [Monogame 3.6 for Visual Studio](https://www.monogame.net/2017/03/01/monogame-3-6/) (make sure you have the right version; the game doesn't work on Monogame 3.7 'cause the video player is really finicky)
 ### Opening the Visual Studio project (and starting the game!)
-If you're viewing this README file you are also viewing this project's repository.    
-1. Ensure that you have the `<>Code` tab selected.
-2. Click the green button that says `<Clone or download>` above the list of files.
-3. Select the `<Download ZIP>` option.
-4. You should see a file icon appear in the bottom lefthand corner of your screen.
-5. Wait for the file to finish downloading.
-6. Right click on the file.
-7. Select `<Show in folder>`.
-8. This should open up your file explorer which shows the zip file in your downloads section.
-9. Extract the file's contents to where you want to save the project so you can easily find it later.
-10. Open the folder if not already opened and double-click on the `<Dann Dann Revolution>` folder.
-11. Double click on `<Dann Dann Revolution.sln>`
-12. Press F5 to start the game
+0. View this repository's GitHub page (if you can read this, you're probably already there!).
+1. From the `<>Code` tab, click the green button near the top-right that says `<Clone or download>`.
+2. Click `<Download ZIP>`.
+3. Once the file has finished downloading, use the File Explorer to navigate to your Downloads folder. 
+4. In your Downloads folder, locate a file called `<dann-dann-revolution-master.zip>`
+5. Extract the .zip file's contents to a convenient location.
+6. Open the newly-extracted folder, double-click on the `<dann-dann-revolution-master>` folder, and finally double-click on the `<Dann Dann Revolution>` folder.
+7. Double-click on `<Dann Dann Revolution.sln>`
+8. Once Visual Studio has opened, press F5 to compile and start the game!
 
 ## Authors and acknowledgements
 **Dann Chan Productions**
